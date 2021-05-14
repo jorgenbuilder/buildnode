@@ -1,0 +1,14 @@
+{
+  "site": {
+    "id": "467ff1ab-2c8e-4d13-9d0f-c440ce9ba108",
+    "team": "jorgenbuilder-team",
+    "platform": "ipfs",
+    "source": "ipfs",
+    "name": "royal-mode-7242"
+  },
+  "build": {
+    "baseDir": "",
+    "publicDir": "build",
+    "rootDir": ""
+  }
+}
