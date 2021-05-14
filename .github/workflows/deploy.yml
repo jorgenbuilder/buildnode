@@ -1,12 +1,12 @@
 on: [push]
 
 jobs:
-  test-deploy:
+  deploy:
     runs-on: ubuntu-latest
-    name: A job to test the action-deploy action by deploying a test site
+    name: Deploy to IPFS
     steps:
       - uses: actions/checkout@v2
-      - name: Deploy test site
+      - name: Deploy
         id: deploy
         uses: fleekhq/action-deploy@v1
         with:
