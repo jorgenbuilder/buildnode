@@ -6,11 +6,13 @@ jobs:
     name: Deploy to IPFS
     steps:
       - uses: actions/checkout@v2
+      - name: Build
+        id: build
+        run: npm i && npm run build
       - name: Deploy
         id: deploy
         uses: fleekhq/action-deploy@v1
         with:
           apiKey: ${{ secrets.FLEEK_API_KEY }}
-          workDir: /
       - name: Get the output url
         run: echo "Deploy url is ${{ steps.deploy.outputs.deployUrl }}"
