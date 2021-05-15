@@ -16,7 +16,7 @@ const App:React.FC = () => {
         </main>
         <footer>
           Hosted on the Interplanetary File System, or IPFS.
-          (<a href="#">What’s that?</a> 🤔)
+          (<a href="#nothing">What’s that?</a> 🤔)
         </footer>
       </header>
     </main>
