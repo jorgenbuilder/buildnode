@@ -10,9 +10,9 @@ const App:React.FC = () => {
           <p>
             Hey there, we're <span className="buildmoji" /> Buildnode Digital, and we build 🔥 web products.
           </p>
-          <p>
-            ✉️ <a href="mailto:newbusiness@buildnode.io">newbusiness@buildnode.io</a>
-          </p>
+          <ul>
+            <li>✉️ <a href="mailto:newbusiness@buildnode.io">newbusiness@buildnode.io</a></li>
+          </ul>
         </main>
         <footer>
           Hosted on the Interplanetary File System, or IPFS.
