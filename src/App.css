@@ -28,6 +28,11 @@ a:visited {
   font-size: .75em;
 }
 
+.splash .emoji {
+  font-size: 2em;
+  vertical-align: middle;
+}
+
 .splash main > *:not(:last-child) {
   margin-bottom: 10vh;
 }

@@ -11,7 +11,7 @@ const App:React.FC = () => {
             Hey there, we're <span className="buildmoji" /> Buildnode Digital, and we build 🔥 web products.
           </p>
           <ul>
-            <li>✉️ <a href="mailto:newbusiness@buildnode.io">newbusiness@buildnode.io</a></li>
+            <li><span className="emoji">✉️</span> <a href="mailto:newbusiness@buildnode.io">newbusiness@buildnode.io</a></li>
           </ul>
         </main>
         <footer>
