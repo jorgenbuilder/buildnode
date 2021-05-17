@@ -39,6 +39,12 @@ a:visited {
   font-size: .5em;
 }
 
+@media screen and (max-width: 667px) {
+  .splash footer {
+    bottom: 15vh;
+  }
+}
+
 .hero-emoji {
   font-size: 12vh;
 }
