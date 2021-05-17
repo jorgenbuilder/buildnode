@@ -51,7 +51,13 @@ a:visited {
 }
 
 .hero-emoji {
+  display: inline-block;
   font-size: 12vh;
+  animation-name: wave;
+  animation-duration: 9.6s;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom right;
 }
 
 .buildmoji {
@@ -61,4 +67,47 @@ a:visited {
   vertical-align: text-top;
   background: url(./Buildmoji.svg) no-repeat;
   background-size: contain;
+}
+
+@keyframes wave {
+  0% {
+    /* Static */
+    transform: scale(1) rotate(0);
+  }
+  3.125% {
+    /* Come forward slightly, begin wave out (half length/from center) */
+    transform: scale(1.2) rotate(-5deg);
+  }
+  6.25% {
+    /* Begin wave in */
+    transform: scale(1.2) rotate(5deg);
+  }
+  9.375% {
+    /* Begin wave out */
+    transform: scale(1.2) rotate(-5deg);
+  }
+  12.50% {
+    /* Begin wave in */
+    transform: scale(1.2) rotate(5deg);
+  }
+  15.625% {
+    /* Begin wave out */
+    transform: scale(1.2) rotate(-5deg);
+  }
+  18.75% {
+    /* Begin wave in */
+    transform: scale(1.2) rotate(5deg);
+  }
+  21.875% {
+    /* Begin wave out */
+    transform: scale(1.2) rotate(-5deg);
+  }
+  25% {
+    /* Return to center, return to back */
+    transform: scale(1) rotate(0);
+  }
+  100% {
+    /* Return to center, return to back */
+    transform: scale(1) rotate(0);
+  }
 }
